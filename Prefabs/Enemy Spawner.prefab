@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3924456739096920628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3924456739096920630}
+  - component: {fileID: 3924456739096920631}
+  m_Layer: 0
+  m_Name: Enemy Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3924456739096920630
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3924456739096920628}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3924456739096920631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3924456739096920628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87825a4723429674e8feb066a1530ba1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waveConfigs:
+  - {fileID: 11400000, guid: ac2f47f79566c9c46aa59fe052cd9202, type: 2}
+  - {fileID: 11400000, guid: e651e38e3afa04947bf662dd1fe72166, type: 2}
+  - {fileID: 11400000, guid: d8473c9b9d057534bb16986990ec8e21, type: 2}
+  - {fileID: 11400000, guid: abb0e07a969e74746b583dcb4e3c6cb2, type: 2}
+  - {fileID: 11400000, guid: bccca7f552b8c5047b38fa3c244f5ea4, type: 2}
+  - {fileID: 11400000, guid: 1d7164e6162b68141af38d9cbf934d19, type: 2}
+  - {fileID: 11400000, guid: 1d04de0260cbd4c4a89b7e90e14f1c30, type: 2}
+  - {fileID: 11400000, guid: 2724f55b513f1344287ea408a944d854, type: 2}
+  - {fileID: 11400000, guid: f6722866aea88284fa394c983cfd75d6, type: 2}
+  startingWave: 0
+  looping: 1
